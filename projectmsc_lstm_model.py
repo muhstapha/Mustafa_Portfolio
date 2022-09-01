@@ -158,7 +158,7 @@ plt.plot(all_dates_test, yValues_test)
 plt.title('Data Split')
 
 plt.legend(['Training Values', 'Validation Values', 'Test Values'])
-
+#Building LSTM model using 100 epochs
 lstm_model = Sequential([layers.Input((3, 1)),
                     layers.LSTM(64), #the bigger this number is '64 for e.g.' the more neurons the LSTM model uses. The bigger the number the more complicated the lstm_model is and the more prone it is to overfitting
                     layers.Dense(32, activation='relu'),
@@ -171,12 +171,6 @@ lstm_model.compile(loss='mse',
 
 lstm_model.fit(xValues_training, yValues_training, validation_data=(xValues_validation, yValues_validation), epochs=100)
 
-#Obtaining root mean squared error (RMSE)
-#rmse_test = np.sqrt(np.mean(((X_test - yValues_test) ** 2)))
-#rmse_train = np.sqrt(np.mean(((X_test - yValues_test) ** 2)))
-
-#Trainingall_datesNo = len(all_dates_training_data)
-#Trainingall_datesNo
 
 Training_data_predictions = lstm_model.predict(xValues_training).flatten()
 plt.figure(figsize=(10,6))
@@ -192,7 +186,7 @@ plt.title('BA Training Data (Oct 2017 - Oct 2019)')
 
 from sklearn.metrics import mean_squared_error
 
-#Calculating MSE & RMSE Values
+#Calculating MSE & RMSE Training Data Values
 Train_MSE = str(mean_squared_error(Training_data_predictions, yValues_training))
 Train_RMSE = str(np.sqrt(mean_squared_error(Training_data_predictions, yValues_training)))
 print('Training MSE =', Train_MSE)
@@ -206,7 +200,7 @@ plt.plot(all_dates_val, yValues_validation)
 plt.legend(['Validation Predictions', 'Validation Observations'])
 plt.title('BA Validation Data (Nov 2019 - Jan 2020)')
 
-#Calculating MSE & RMSE Values
+#Calculating MSE & RMSE Validation Values
 Val_MSE = str(mean_squared_error(val_predictions, yValues_validation))
 Val_RMSE = str(np.sqrt(mean_squared_error(val_predictions, yValues_validation)))
 
@@ -222,7 +216,7 @@ plt.plot(all_dates_test, yValues_test)
 plt.legend(['Testing Predictions', 'Testing Observations'])
 plt.title('BA Testing Data (Feb 2020 - May 2020)')
 
-#Calculating MSE & RMSE Values
+#Calculating MSE & RMSE Testing Values
 Test_MSE = str(mean_squared_error(test_predictions, yValues_test))
 Test_RMSE = str(np.sqrt(mean_squared_error(test_predictions, yValues_test)))
 print('Test MSE =', Test_MSE)
@@ -230,7 +224,7 @@ print('Test RMSE =', Test_RMSE)
 
 plt.figure(figsize=(12,8))
 
-#Comining plots together
+#Combining plots together
 plt.plot(all_dates_training_data, Training_data_predictions)
 plt.plot(all_dates_training_data, yValues_training)
 plt.plot(all_dates_val, val_predictions)
