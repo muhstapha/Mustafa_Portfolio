@@ -4,9 +4,13 @@
 
 ## The Boeing Company (BA) ##
 * BA experienced a huge crash in March 2020 due to the Covid-19 pandemic. 
+* BA and Airbus have a duopoly in the aircraft industry. It almost seemed certain that once travel restrictions had come into effect during the pandemic, the public would panic and sell off BA shares. BA had started to see a sharp fall in its price in February 2020 just before the pandemic was announced. BA saw a 70% fall in its price from February 2020 to the historical stock market crash on March 16th, 2020. However, over the past few years, since 2017, the company has been trading fairly volatile. I used BA’s stock price from 2017 to predict this huge stock market crash. I expect the model to underperform since it is running on nothing but the ‘Close’ price data to make predictions. The LSTM model wouldn’t know of a pandemic with its univariate design, andtheoretically the model should underperform when predicting
+BA’s stock.
 * Using data from November 2017 I used my LSTM model to predict this crash:
 ![BA_Predictions](https://user-images.githubusercontent.com/72275728/187895760-dacdc0c4-9131-4da9-90c2-d11f90b21c3d.png)
 
 ## Zoom Video Communications, Inc. (ZM) ##
-* ZM experienced large periods of volatility after the pandemic was announced by the World Health Organization (WHO)
 * Before the pandemic, ZM had very slow market activity after initially trading publicly in April 2019. Trading at $107.47 just before the World Health Organization (WHO) declared COVID-19 a pandemicin March 2020, there was a huge spike in the share price. ZM saw a 425% rise in its stock price reaching an all-time high of $559 in October 2020.
+* However, during the period where the Pfizer-BioNTech COVID-19 Vaccine was announced in November 2020, ZM saw a 20% drop in its stock price. During this period of volatility, I felt that using ZM was an applicable stock to test how my model would perform.
+* Using data from March 2020 to predict the activity in the market in December 2020:
+![image](https://user-images.githubusercontent.com/72275728/187897335-5250f177-56ca-4134-be5f-f2260da112ba.png)
