@@ -1,7 +1,7 @@
 # Stock Market Prediction Using LSTM Neural Networks to Predict Volatile Time Frames
 Long Short Term Memory (LSTM) are a subset of neural networks used to recognise patterns in data and are extremely valuable for stock market forecasting. With recent economic events, the stock market has experienced extremely volatile price movements. This project uses the recent volatile stock market data to predict volatile time frames for The Boeing Company (BA) and Zoom Video Communications, Inc. (ZM). A LSTM model was built and assessed by predicting two specific time periods of volatility caused by economic events for the mentioned stocks.
 
-* My Final MSc Project can be found in my profile under the name: 
+* My Final MSc Project dissertation paper can be found in my profile under the name: 
   * Mustafa_Alkatib_ProjectMSc_180452927.pdf
 
 * The LSTM model built using Python is named as the file:
