@@ -14,6 +14,12 @@ BA’s stock.
 ![Screenshot 2022-09-01 115922](https://user-images.githubusercontent.com/72275728/187898612-309cf016-5dc4-4203-adb0-56d85d759c90.png)
 
 <details>
-           <summary>Title 1</summary>
-           <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+           <summary>My MSc Final Project Dissertation Paper</summary>
+           ![Mustafa_Alkatib_ProjectMSc_Page_01](https://user-images.githubusercontent.com/72275728/187899748-a08bfe8b-f232-4c3d-88b0-803ab7a57aaf.jpg)
+           ![Mustafa_Alkatib_ProjectMSc_Page_02](https://user-images.githubusercontent.com/72275728/187899772-95cc38c1-c67e-4005-81de-bf3f3e327d7e.jpg)
+           ![Mustafa_Alkatib_ProjectMSc_Page_03](https://user-images.githubusercontent.com/72275728/187899795-77d38f71-1355-460c-98a4-8f5030180898.jpg)
+
+           
+
+
          </details>
