@@ -12,3 +12,8 @@ BA’s stock.
 * However, during the period where the Pfizer-BioNTech COVID-19 Vaccine was announced in November 2020, ZM saw a 20% drop in its stock price. During this period of volatility, I felt that using ZM was an applicable stock to test how my model would perform.
 * Using data from March 2020 to predict the activity in the market in December 2020:
 ![Screenshot 2022-09-01 115922](https://user-images.githubusercontent.com/72275728/187898612-309cf016-5dc4-4203-adb0-56d85d759c90.png)
+
+<details>
+           <summary>Title 1</summary>
+           <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+         </details>
