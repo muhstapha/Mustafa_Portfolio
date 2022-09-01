@@ -13,3 +13,4 @@ BA’s stock.
 * Before the pandemic, ZM had very slow market activity after initially trading publicly in April 2019. Trading at $107.47 just before the World Health Organization (WHO) declared COVID-19 a pandemicin March 2020, there was a huge spike in the share price. ZM saw a 425% rise in its stock price reaching an all-time high of $559 in October 2020.
 * However, during the period where the Pfizer-BioNTech COVID-19 Vaccine was announced in November 2020, ZM saw a 20% drop in its stock price. During this period of volatility, I felt that using ZM was an applicable stock to test how my model would perform.
 * Using data from March 2020 to predict the activity in the market in December 2020:
+![Screenshot 2022-09-01 115922](https://user-images.githubusercontent.com/72275728/187898612-309cf016-5dc4-4203-adb0-56d85d759c90.png)
