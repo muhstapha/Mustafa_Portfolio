@@ -6,5 +6,5 @@
 * BA experienced a huge crash in March 2020 due to the Covid-19 pandemic. 
 * Using data from November 2017 I used my LSTM model to predict this crash:
 
-![image](https://user-images.githubusercontent.com/72275728/187895502-59aaf27e-4a3d-4258-9980-71ec84986a5e.png)
 
+![BA_Predictions](https://user-images.githubusercontent.com/72275728/187895760-dacdc0c4-9131-4da9-90c2-d11f90b21c3d.png)
