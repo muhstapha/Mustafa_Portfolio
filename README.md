@@ -1,6 +1,5 @@
 # Stock Market Prediction Using LSTM Neural Networks to Predict Volatile Time Frames
-* Built a model to predict specific periods of Volatility for two stocks: The Boeing Company (BA) & Zoom Video Communications, Inc. (ZM)
-* Obtained Data from YahooFinance 
+Long Short Term Memory (LSTM) are a subset of neural networks used to recognise patterns in data and are extremely valuable for stock market forecasting. With recent economic events, the stock market has experienced extremely volatile price movements. This project uses the recent volatile stock market data to predict volatile time frames for The Boeing Company (BA) and Zoom Video Communications, Inc. (ZM). A LSTM model was built and assessed by predicting two specific time periods of volatility caused by economic events for the mentioned stocks.
 
 ## The Boeing Company (BA) ##
 * BA experienced a huge crash in March 2020 due to the Covid-19 pandemic. 
